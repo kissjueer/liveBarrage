@@ -32,7 +32,7 @@ class BarrageHelper(QWidget):
         win = self
 
     def initUI(self):
-        self.setWindowTitle('宝链直播弹幕助手')
+        self.setWindowTitle('直播弹幕助手')
         self.resize(400, 160)
         self.liveAddrLabel = QLabel('直播地址：', self)
         self.liveAddrEdit = QLineEdit('', self)
